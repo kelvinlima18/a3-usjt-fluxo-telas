@@ -1,0 +1,50 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #3aa05f;
+  padding: 20px;
+  color: #ffffff;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+header span {
+  margin-left: 40px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+section {
+  display: flex;
+  padding: 40px;
+  height: 86.7vh;
+  justify-content: space-between;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  background-color: #3aa05f;
+  height: 100px;
+  color: #ffffff;
+}
+
+div a {
+  text-decoration: none;
+  color: #ffffff;
+}

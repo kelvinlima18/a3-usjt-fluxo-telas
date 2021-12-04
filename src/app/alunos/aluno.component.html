@@ -1,0 +1,28 @@
+<main>
+  <header>
+    <h1>CEE</h1>
+    <span>Catalogo das experiências de ecossocioeconomia - Alunos</span>
+
+    <a [routerLink]="['/professor']">Voltar</a>
+  </header>
+
+  <section>
+    <aside>
+      <div class="cadastro-alunos">
+        <a [routerLink]="['cadastro']">Cadastro de Alunos</a>
+      </div>
+
+      <div class="cadastro-turmas">
+        <a [routerLink]="['turma']">Cadastro de Turmas</a>
+      </div>
+
+      <div class="Ensalamento">
+        <a [routerLink]="['ensalamento']">Ensalamento</a>
+      </div>
+    </aside>
+
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </section>
+</main>

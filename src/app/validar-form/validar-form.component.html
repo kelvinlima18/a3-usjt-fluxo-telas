@@ -1,0 +1,20 @@
+<main>
+  <header>
+    <h1>CEE</h1>
+    <span>Catalogo das experiências de ecossocioeconomia - Formulário</span>
+
+    <a [routerLink]="['/professor']">Voltar</a>
+  </header>
+
+  <section>
+    <aside>
+      <div class="nota">
+        <a [routerLink]="['nota']">Atribuir Nota</a>
+      </div>
+    </aside>
+
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </section>
+</main>
